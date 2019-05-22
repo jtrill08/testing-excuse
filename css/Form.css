@@ -1,0 +1,52 @@
+body {
+  background-color: #ff0000;     
+}
+
+p {
+	font-size: 60px;
+	color:#fffff;
+	margin: 13% 0% 2% 34%;
+}
+input {
+	width: 30%;
+	background-color:#ffa500;
+	padding: 12px 20px;
+ 	margin: 0% 0% 0% 35%;
+  	box-sizing: border-box;
+  	border: 2px solid red;
+ 	border-radius: 4px;
+ 	color: white;
+ 	outline: none;
+}
+
+textarea {
+	width: 30%;
+	background-color:#ffa500;
+	padding: 12px 20px;
+ 	margin: 0% 0% 1% 35%;
+  	box-sizing: border-box;
+  	border: 2px solid red;
+  	border-radius: 4px;
+  	color: white;
+  	outline: none;
+}
+
+button {
+	width: 30%;
+	background-color:#ffa500;
+	padding: 12px 20px;
+ 	margin: 0% 0% 0% 35%;
+  	box-sizing: border-box;
+  	border: 2px solid red;
+  	border-radius: 4px;
+  	color: white;
+  	outline: none;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
