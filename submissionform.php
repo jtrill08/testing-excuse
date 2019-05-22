@@ -9,7 +9,7 @@ if(isset($_POST['submit'])) {
 	$txt = "You have recieved an e-email from ".$name.".\n\n".$Excuse;
 
 
-	mail($mailTo,$txt);
-	header("Location: submission1.php?mailsend");
+	mail($mailTo,$txt, $headers);
+	header("Location: submissionform.php?mailsend");
 
 }
