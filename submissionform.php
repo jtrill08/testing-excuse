@@ -2,14 +2,17 @@
 
 if(isset($_POST['submit'])) {
 	$name=$_POST['name'];
-	$Excuse=$_POST['Excuse'];
+	$subject=$_POST['subject'];
+	$mailFrom=$_POST['mail'];
+	$message = $_POST['message'];
 
 
 	$mailTo = "justiciapremo@outlook.com";
-	$txt = "You have recieved an e-email from ".$name.".\n\n".$Excuse;
+	$headers = "From:".$mailFrom;
+	$txt = "You have recieved an e-email from ".$name.".\n\n".$message;
 
 
-	mail($mailTo,$txt, $headers);
-	header("Location: submissionform.php?mailsend");
+	mail($mailTo, $subject, $txt, $headers);
+	header("Location: submissionpage.html mailsend");
 
 }
