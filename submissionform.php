@@ -7,7 +7,7 @@ if(isset($_GET['submit'])) {
 	$message = $_GET['message'];
 
 
-	$mailTo = "justiciapremo@outlook.com";
+	$mailTo = "popskinny9@msn.com";
 	$headers = "From:".$mailFrom;
 	$txt = "You have recieved an e-email from ".$name.".\n\n".$message;
 
