@@ -1,46 +1,59 @@
 body {
-  background-color: #ff0000;     
+  background-color: #fffff;     
 }
 
 p {
-	font-size: 60px;
-	color:#fffff;
-	margin: 13% 0% 2% 34%;
+  text-align: center; 
+  margin-top:13%;
+  margin-bottom: 1%;
+  font-size: 60px;
+  color:#fffff;
+  font-family:sans-serif;
+  text-align: center; 
 }
-input {
-	width: 30%;
-	background-color:#ffa500;
-	padding: 12px 20px;
- 	margin: 0% 0% 0% 35%;
-  	box-sizing: border-box;
-  	border: 2px solid red;
- 	border-radius: 4px;
- 	color: white;
- 	outline: none;
+
+div {
+  display: flex;
+  width: 35%;
+  height: 50px;
+  padding: 0.5em 1em;
+  margin: 2% 0 1em 30%;
+  background-color:#FFFF;
+  border-radius: 200px;
+  border-style: solid;
+  border-color: #D3D3D3; 
+  word-wrap: break-word;
 }
 
 textarea {
-	width: 30%;
-	background-color:#ffa500;
-	padding: 12px 20px;
- 	margin: 0% 0% 1% 35%;
-  	box-sizing: border-box;
-  	border: 2px solid red;
-  	border-radius: 4px;
-  	color: white;
-  	outline: none;
+  flex-grow: 1;
+  width:500; 
+  height: 50px; 
+  padding: 10px 0px 0px 0px; 
+  background-color:#F9F8F3;
+  border-radius:200px;
+  font-size: 15px;
+  font-weight:20px;
+  font-family:sans-serif;
+  text-align: center;
+  color: #00000;
+  display: inline-block; 
+  border-style: none;
+  word-wrap: break-word;
+  
+    
 }
 
 button {
-	width: 30%;
-	background-color:#ffa500;
-	padding: 12px 20px;
- 	margin: 0% 0% 0% 35%;
-  	box-sizing: border-box;
-  	border: 2px solid red;
-  	border-radius: 4px;
-  	color: white;
-  	outline: none;
+  margin-left: 10px;
+  padding: 0 1em;
+  background-color:#3498DB;
+  color: white;
+  outline: none;
+  border-radius: 50px;
+  border-style: none;
+  padding: 10px 15px;
+  
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
