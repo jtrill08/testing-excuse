@@ -2,6 +2,22 @@ head {
   background-color:B0B0B0; 
 }
 
+div{
+
+}
+a {
+  margin: 290px 0px 0px 439px;
+  padding: 60px 50px 50px 25px;
+  background-color: #B0B0B0;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block
+
+}
+
+
 body {
   background-color: #fff      
 }
